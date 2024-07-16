@@ -11,6 +11,8 @@ script = ExtResource("1_bcp6o")
 [node name="StateMachine" type="Node" parent="."]
 script = ExtResource("2_v3h8t")
 initial_state = NodePath("PlayerStateIdle")
+ACTIVE_HISTORY = true
+PRINT_HISTORY = true
 
 [node name="PlayerStateIdle" type="Node" parent="StateMachine"]
 script = ExtResource("3_4r7fi")
